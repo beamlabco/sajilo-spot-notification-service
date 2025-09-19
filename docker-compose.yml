@@ -18,3 +18,8 @@ services:
 
 volumes:
   valkey:
+
+networks:
+  default:
+    external: true
+    name: appnet
